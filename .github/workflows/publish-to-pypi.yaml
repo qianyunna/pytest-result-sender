@@ -1,4 +1,4 @@
-name: Publish Python distribution to PyPI
+name: Publish Python distributions to PyPI
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-publish:
-    name: Build and publish Python distribution to PyPI
+    name: Build and publish Python distributions to PyPI
     runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@v2
